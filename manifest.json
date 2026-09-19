@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Voice Downloader",
+  "version": "1.0.0",
+  "description": "Download voice messages from Discord Web.",
+  "permissions": [
+    "downloads"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
