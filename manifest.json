@@ -1,4 +1,9 @@
 {
+  {
+  "_comment": "Info about the extension",
+  "setting": true,
+  "theme": "dark"
+  }
   "manifest_version": 3,
   "name": "Discord Voice Downloader",
   "version": "1.0.0",
@@ -6,6 +11,11 @@
   "permissions": [
     "downloads"
   ],
+  {
+  "_comment": "Code",
+  "setting": true,
+  "theme": "dark"
+  }
   "content_scripts": [
     {
       "matches": ["https://discord.com/*"],
